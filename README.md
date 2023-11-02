@@ -1,0 +1,2 @@
+# gencontenthub
+slogan generator
