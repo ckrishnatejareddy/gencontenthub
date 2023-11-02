@@ -26,7 +26,6 @@ with st.sidebar:
     st.title('GenContentHub')
     st.write('Welcome to our Slogan Generator! This chatbot helps you craft memorable, catchy slogans that resonate with your brand’s essence and leave a lasting impression on your audience.')
     if 'REPLICATE_API_TOKEN' in st.secrets:
-        # st.success('API key already provided!', icon='✅')
         replicate_api = st.secrets['REPLICATE_API_TOKEN']
     else:
         replicate_api = st.text_input('Enter Replicate API token:', type='password')
