@@ -118,7 +118,7 @@ for message in st.session_state.messages:
 
 
 
-# Function for generating LLaMA2 response. Refactored from https://github.com/a16z-infra/llama2-chatbot
+# Function for generating LLaMA2 response. 
 def generate_llama2_response(prompt_input):
     string_dialogue = f"You are an AI assistant designed to create slogans.\n\n Generate exactly {number_of_slogans} slogans.\n\n"
     
